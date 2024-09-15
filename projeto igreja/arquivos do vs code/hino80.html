@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="cifra.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<script src="acordes.js"></script>
+<script src="musica.js"></script>
+<script src="rolagem.js"></script>
+
+<script src="cifra.js"></script>
+<body>
+   
+  
+
+  <div class="menus">
+    <ul class="ordem-3">
+        <li><a href="#">hino
+            <ul>
+            
+                <li><a href="hino.html">harpa cristã</a></li>
+            </ul>
+        </li>
+        <li><a href="#">biblia sagrada</a>
+            <ul>
+                <li><a href="./.././genesis/index.html">capitulos</a></li>
+                <li><a href="#">conteudo 4</a></li>
+            </ul>
+        </li>
+        <li><a href="#">lista 3</a>
+            <ul>
+                <li><a href="#">lista 10</a></li>
+                <li><a href="#">lista 10</a></li>
+            </ul>
+        </li>
+        <li><a href="#">lista 4</a>
+            <ul>
+                <li><a href="#">lista 10</a></li>
+                <li><a href="#">lista 10</a></li>
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+  
+<div class = "button">
+    <div class = "ball"></div>
+    
+    </div>
+
+<script>
+    document.querySelector('.ball').addEventListener('click', (e)=>{
+        e.target.classList.toggle('ball-move');
+        document.body.classList.toggle('dark');
+    });
+    </script>
+
+
+<div id="controls">
+  <button class="botao" onclick="rolar(1)">&#x25B6;</button>
+  <button class="botao" onclick="rolar()">II</button><br>
+
+  <button onclick="transposicaoBotao(1)">+ 1/2 tom</button><br>
+  <button onclick="transposicaoBotao(-1)">- 1/2 tom</button><br>
+  <Button onclick="reset()">reset</Button>
+
+</div>
+  
+  </div>
+
+  <div class="row">
+    <div class="col musicas">
+        
+<p data-arquivo="Hino 32 - O Grande Eu Sou" onclick="abrirMusica(event)">O Grande "Eu Sou"</p>
+       
+        
+    </div>
+
+
+  <div class="row">
+ <div id="resultado">
+                
+
+    <pre>
+          
+        <b>A</b>
+Porque Ele vive
+             <b>D</b>
+Posso crer no amanhã
+           <b>A</b>
+Porque Ele vive
+          <b>E</b>
+Temor não há
+
+           <b>A</b>
+Mas eu bem sei, eu sei
+            <b>D</b>
+Que a minha vida
+         <b>A</b>             <b>E</b>
+Está nas mãos do meu Jesus
+           <b>A</b>
+Que vivo está
+
+[Primeira Parte] 
+
+                       <b>D</b>
+Deus enviou seu Filho amado
+        <b>A</b>            <b>Bm</b>  <b>E</b>
+Para morrer em meu lugar
+           <b>A</b>              <b>D</b>
+Na cruz sofreu por meus pecados
+<b>Bm</b>          <b>F#m</b>            <b>E</b>
+  Mas o sepulcro vazio está
+           <b>D</b>
+Porque Ele vive
+
+[Refrão] 
+
+           <b>A</b>
+Porque Ele vive
+             <b>D</b>
+Posso crer no amanhã
+           <b>A</b>
+Porque Ele vive
+          <b>E</b>
+Temor não há
+
+           <b>A</b>
+Mas eu bem sei, eu sei
+            <b>D</b>
+Que a minha vida
+<b>Bm</b>           <b>F#m</b>           <b>E</b> 
+  Está nas mãos do meu Jesus
+           <b>G</b>  <b>E</b>
+Que vivo está
+
+[Segunda Parte] 
+
+           <b>A</b>             <b>D</b>
+E quando enfim, chegar a hora
+         <b>A</b>             <b>Bm</b>  <b>E</b>
+Em que a morte enfrentarei
+            <b>A</b>            <b>D</b>
+Sem medo, então, terei vitória
+<b>Bm</b>            <b>F#m</b>             <b>E</b>
+  Verei na Glória, ao meu Jesus
+           <b>D</b>
+Que vivo está
+
+[Refrão] 
+
+           <b>A</b>
+Porque Ele vive
+             <b>D</b>
+Posso crer no amanhã
+           <b>A</b>
+Porque Ele vive
+          <b>E</b>
+Temor não há
+
+           <b>A</b>
+Mas eu bem sei, eu sei
+            <b>D</b>
+Que a minha vida
+<b>Bm</b>           <b>F#m</b>           <b>E</b>   
+  Está nas mãos do meu Jesus
+           <b>G</b>  <b>E</b>
+Que vivo está
+
+[Refrão] 
+
+           <b>A</b>
+Porque Ele vive
+             <b>D</b>
+Posso crer no amanhã
+           <b>A</b>
+Porque Ele vive
+          <b>E</b>
+Temor não há
+
+           <b>A</b>
+Mas eu bem sei, eu sei
+            <b>D</b>
+Que a minha vida
+<b>Bm</b>           <b>F#m</b>           <b>E</b>   
+  Está nas mãos do meu Jesus
+           <b>D</b>  <b>A</b>
+Que vivo está
+                [Acordes]
+A = X 0 2 2 2 0
+A/C# = X 4 X 2 5 5
+A9 = X 0 2 2 0 0
+A4 = X 0 2 2 3 0
+A6 = 5 X 4 6 5 X
+B = X 2 4 4 4 2
+B/D# = X 6 X 4 7 7
+B4 = X 2 4 4 5 2
+Bm = X 2 4 4 3 2
+C#m = X 4 6 6 5 4
+D = X X 0 2 3 2
+D/F# = 2 X 0 2 3 2
+E = 0 2 2 1 0 0
+E/G# = 4 X 2 4 5 X
+Em = 0 2 2 0 0 0
+G = 3 2 0 0 0 3
+G/B = X 2 0 0 3 3
+</pre>
+
+</div>
+</div>
+
+<h1>Exemplo de desenho de acordes com canvas</h1>
+
+    <div class="row">
+        <div class="col" id="acordes">
+            <h3>Canvas</h3>
+        </div>        
+        <div class="col">
+            <h3>Imagem exemplo</h3>
+            <img src="exemplo-c.png" alt="Exemplo cifra acorde de DÓ (C)">
+        </div>
+    </div>
+
+
+
+</body>
+</html>
