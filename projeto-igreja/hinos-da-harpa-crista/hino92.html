@@ -3,159 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="cifra.css">
-  
+  <link rel="stylesheet" href="../meusite.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-
-<script src="cifra.js"></script>
-
-<script src="acordes.js"></script>
-<script src="musica.js"></script>
-<script src="rolagem.js"></script>
-
-<body>
-  
-    <div class="menus">
-        <ul class="ordem-3">
-            <li><a href="#">hino
-                <ul>
-                
-                    <li><a href="hino.html">harpa cristã</a></li>
-                </ul>
-            </li>
-            <li><a href="#">biblia sagrada</a>
-                <ul>
-                    <li><a href="../genesis/index.html">capitulos</a></li>
-                    <li><a href="../genesis/index.html">versiculos</a></li>
-                </ul>
-            </li>
-            <li><a href="#">videos</a>
-                <ul>
-                    <li><a href="../videos-youtube/videosyoutube.html">louvores</a></li>
-                    <li><a href="../videos-youtube/videosyoutube.html">videos</a></li>
-                </ul>
-            </li>
-            <li><a href="meusite.html">shekinah kadoshi</a>
-                <ul>
-                    <li><a href="#">lista 10</a></li>
-                    <li><a href="#">lista 10</a></li>
-                </ul>
-            </li>
-        
-        </ul>
-    </div>
-
-
-    <div id="controls">
-        <button class="botao" onclick="rolar(1)">Rolagem</button>
-        <button class="botao" onclick="rolar()">Pause</button>
-      
-        <button onclick="transposicaoBotao(1)">+ 1/2 </button>
-        <button onclick="transposicaoBotao(-1)">-1/2 </button>
-        <Button onclick="reset()">reset</Button>
-      
-      </div>
-
- <div class="row">
-    <div class="col musicas">
-        
-<p data-arquivo="Hino 01 - chuvas de Graça" onclick="abrirMusica(event)"></p>
-       
-        
-    </div>
-
- <div class="row">
- <div id="resultado">
-<pre>
-                      Hino 43
-                      Doce Lar
-                     TOM: <b>D</b>
-
-          <b>D</b>   <b>A7</b>   <b>D</b>         <b>Em</b>     <b>A7</b>    <b>D</b>   
-          Na pátria celeste, de Deus o doce lar
-                <b>A7</b>    <b>D</b>           <b>Em</b>    <b>A7</b>    <b>D</b>
-          Prepara Jesus, para os Seus, um lugar
-                <b>G</b>  <b>A</b>     <b>D</b>         <b>Em</b>   <b>A7</b>   <b>D</b>
-          Pois longe do mal, do pecado e da dor
-              <b>G</b>  <b>A</b>     <b>D</b>         <b>Em</b>       <b>A7</b>     <b>D</b>
-          Consigo pra sempre os quer ter seu Senhor
-          
-              <b>Em</b>  <b>A</b>  <b>D</b>  <b>A</b>  <b>D</b>
-          Oh! Doce, doce lar!
-          <b>G</b>    <b>A</b>     <b>D</b>             <b>Em</b>     <b>A7</b>    <b>D</b>
-          Ali, com Jesus, vou para sempre descansar
-          
-              <b>D</b>   <b>A7</b>   <b>D</b>         <b>Em</b>     <b>A7</b>    <b>D</b>  
-          Oh! Lar sacrossanto de paz e de amor!
-                <b>A7</b>    <b>D</b>         <b>Em</b>    <b>A7</b>    <b>D</b>
-          Ali sobre o trono, verei meu Senhor
-                <b>G</b>  <b>A</b>     <b>D</b>      <b>Em</b>   <b>A7</b>   <b>D</b>
-          O meigo Cordeiro, reinando em luz
-              <b>G</b>  <b>A</b>     <b>D</b>       <b>Em</b>  <b>A7</b>    <b>D</b>
-          Por todos louvado, bendito Jesus!
-          
-              <b>Em</b>  <b>A</b>  <b>D</b>  <b>A</b>  <b>D</b>
-          Oh! Doce, doce lar!
-          <b>G</b>    <b>A</b>     <b>D</b>             <b>Em</b>     <b>A7</b>    <b>D</b>
-          Ali, com Jesus, vou para sempre descansar
-          
-              <b>D</b>   <b>A7</b>   <b>D</b>         <b>Em</b>     <b>A7</b>    <b>D</b>  
-          Que puras delícias se encontram em ti!
-                <b>A7</b>    <b>D</b>     <b>Em</b>    <b>A7</b>    <b>D</b>
-          Que gozos supremos esperam ali
-                <b>G</b>  <b>A</b>     <b>D</b>         <b>Em</b>   <b>A7</b>   <b>D</b>
-          Aqueles a quem juntos Si Deus quer ter
-              <b>G</b>  <b>A</b>     <b>D</b>    <b>Em</b>  <b>A7</b>   <b>D</b>
-          E perpetuamente os satisfazer!
-          
-              <b>Em</b>  <b>A</b>  <b>D</b>  <b>A</b>  <b>D</b>
-          Oh! Doce, doce lar!
-          <b>G</b>    <b>A</b>     <b>D</b>             <b>Em</b>     <b>A7</b>    <b>D</b>
-          Ali, com Jesus, vou para sempre descansar
-          
-              <b>D</b>   <b>A7</b>   <b>D</b>         <b>Em</b>     <b>A7</b>    <b>D</b>  
-          Não são seus prazeres que anseio gozar
-                <b>A7</b>    <b>D</b>           <b>Em</b>    <b>A7</b>    <b>D</b>
-          Mas, sim, com Jesus para sempre morar!
-                <b>G</b>  <b>A</b>     <b>D</b>     <b>Em</b>   <b>A7</b>   <b>D</b>
-          Jamais desonrá-Lo, jamais ofender
-              <b>G</b>  <b>A</b>     <b>D</b>         <b>Em</b>       <b>A7</b>     <b>D</b>
-          A quem, pra ganhar-me, por mim quis morrer
-          
-              <b>Em</b>  <b>A</b>  <b>D</b>  <b>A</b>  <b>D</b>
-          Oh! Doce, doce lar!
-          <b>G</b>    <b>A</b>     <b>D</b>             <b>Em</b>     <b>A7</b>    <b>D</b>
-          Ali, com Jesus, vou para sempre descansar
-
-
-                    Glória A Deus
-
-
-
-            [Acordes]
-            A = X 0 2 2 2 0
-            A/C# = X 4 X 2 5 5
-            A9 = X 0 2 2 0 0
-            A4 = X 0 2 2 3 0
-            A6 = 5 X 4 6 5 X
-            B = X 2 4 4 4 2
-            B/D# = X 6 X 4 7 7
-            B4 = X 2 4 4 5 2
-            Bm = X 2 4 4 3 2
-            C#m = X 4 6 6 5 4
-            D = X X 0 2 3 2
-            D/F# = 2 X 0 2 3 2
-            E = 0 2 2 1 0 0
-            E/G# = 4 X 2 4 5 X
-            Em = 0 2 2 0 0 0
-            G = 3 2 0 0 0 3
-            G/B = X 2 0 0 3 3
-
-        </pre>
-</div>
-</div>
-  
+  <title>Hino 01 Chuvas de Graça</title>
+  <style>
     
-  </body>
-  </html>
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jBgO8grSwsU?si=PZzwNhkunBAOrfen" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
+  <h1 class="titulo-menu">Shekinah Kadosh Hinos da Harpa Cristã</h1>
+
+<table class="menu-principal">
+<tr class="menu-tabela">
+<td><a href="../videos-youtube/videosyoutube.html"> videos</a></td>
+<td><a href="../louvores/index.html">louvores</a></td>
+<td><a href="../genesis/index.html">biblia sagrada </a></td>
+<td><a href="../teclado virtual/teclado.html">Teclado Virtual </a></td>
+<td><a href="../hinos-da-harpa/index.html">hinos</a></td>
+<td><a href="../quiz-Biblico/quiz.html">quiz </a></td>
+<td><a href="">Playback </a></td>
+<td><a href="#"></a></td>
+</tr>
+
+</table>
+
+  <div id="controls">
+    <div id="scroll-up" class="control-button">-</div>
+    <div id="scroll-down" class="control-button">+</div>
+    <div id="scroll-toggle" class="control-button">Play</div>
+    <div id="scroll-reset" class="control-button">Reset</div>
+    <div id="transpose-up" class="control-button">Transpose +</div>
+    <div id="transpose-down" class="control-button">Transpose -</div>
+    <div id="font-size-up" class="control-button">A+</div>
+    <div id="font-size-down" class="control-button">A-</div>
+  </div>
+
+  <div id="scroll-container">
+    <pre id="content">
+      
+          <b>Bb</b>  
+ Meu bondoso Salvador
+          <b>F</b>
+Meus pecados carregou
+         <b>F</b>
+Foi Jesus, o Redentor
+      <b>C</b>    <b>F</b>
+Que da morte me livrou
+
+       <b>Bb</b>      <b>C</b>
+Oh! Que Salvador eu tenho!
+     <b>F</b>       <b>Bb</b>
+O Seu sangue me remiu
+        <b>Bb</b>        <b>C</b>
+Quando, sobre o rude lenho
+      <b>F</b>       <b>Bb</b>
+Meu castigo Ele cumpriu.
+
+              <b>Bb</b>
+Oh! Que amor do meu Jesus
+             <b>F</b>
+Que em homem se encarnou
+            <b>F</b>
+Pra sofrer por mim, na cruz
+        <b>C</b>      <b>F</b>
+E meus crimes perdoou
+ 
+         <b>Bb</b>
+Não há outro nome igual
+            <b>F</b>
+Ao bom nome de Jesus
+            <b>F</b>
+Porque livra-me do mal
+     <b>C</b>        <b>F</b>
+E à glória me conduz
+
+          <b>Bb</b>
+Com Jesus, alegre, vou
+         <b>F</b>
+Sua graça publicar
+             <b>F</b>
+Porque Ele me chamou
+       <b>C</b>       <b>F</b>
+Na Sua vinha a trabalhar
+
+[Acordes]
+    A = X 0 2 2 2 0
+    A/C# = X 4 X 2 5 5
+    A9 = X 0 2 2 0 0
+    A4 = X 0 2 2 3 0
+    A6 = 5 X 4 6 5 X
+    B = X 2 4 4 4 2
+    B/D# = X 6 X 4 7 7
+    B4 = X 2 4 4 5 2
+    Bm = X 2 4 4 3 2
+    C#m = X 4 6 6 5 4
+    D = X X 0 2 3 2
+    D/F# = 2 X 0 2 3 2
+    E = 0 2 2 1 0 0
+    E/G# = 4 X 2 4 5 X
+    Em = 0 2 2 0 0 0
+    G = 3 2 0 0 0 3
+    G/B = X 2 0 0 3 3
+    </pre>
+  </div>
+
+  
+</body>
+<script src="cifra.js"></script>
+</html>

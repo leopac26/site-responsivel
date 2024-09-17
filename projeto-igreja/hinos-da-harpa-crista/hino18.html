@@ -3,132 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="cifra.css">
-  
+  <link rel="stylesheet" href="../meusite.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-
-<script src="cifra.js"></script>
-
-<script src="acordes.js"></script>
-<script src="musica.js"></script>
-<script src="rolagem.js"></script>
-
-<body>
-  
-    <div class="menus">
-        <ul class="ordem-3">
-            <li><a href="#">hino
-                <ul>
-                
-                    <li><a href="hino.html">harpa cristã</a></li>
-                </ul>
-            </li>
-            <li><a href="#">biblia sagrada</a>
-                <ul>
-                    <li><a href="../genesis/index.html">capitulos</a></li>
-                    <li><a href="../genesis/index.html">versiculos</a></li>
-                </ul>
-            </li>
-            <li><a href="#">videos</a>
-                <ul>
-                    <li><a href="../videos-youtube/videosyoutube.html">louvores</a></li>
-                    <li><a href="../videos-youtube/videosyoutube.html">videos</a></li>
-                </ul>
-            </li>
-            <li><a href="meusite.html">shekinah kadoshi</a>
-                <ul>
-                    <li><a href="#">lista 10</a></li>
-                    <li><a href="#">lista 10</a></li>
-                </ul>
-            </li>
-        
-        </ul>
-    </div>
-
-
-    <div id="controls">
-        <button class="botao" onclick="rolar(1)">Rolagem</button>
-        <button class="botao" onclick="rolar()">Pause</button>
-      
-        <button onclick="transposicaoBotao(1)">+ 1/2 </button>
-        <button onclick="transposicaoBotao(-1)">- 1/2 </button>
-        <Button onclick="reset()">reset</Button>
-      
-      </div>
-
- <div class="row">
-    <div class="col musicas">
-        
-<p data-arquivo="Hino 01 - chuvas de Graça" onclick="abrirMusica(event)"></p>
-       
-        
-    </div>
-
- <div class="row">
- <div id="resultado">
-<pre>
-  Hino 18
-  Grata nova
-  Tom: <b>F</b>
-       
-  <b>Dm</b>     <b>Dm7M</b>         <b>Dm7</b>    <b>Dm</b>       <b>D7/F#</b> <b>Am7(11)</b>     <b>Gm13</b> <b>Gm7M</b>
-Grata nova Deus proclama. Hoje ao mundo peca - dor
-      <b>Gm7</b>  <b>Gm6</b>  <b>Em7(5-)</b>    <b>Bb7M</b>    <b>A7</b>    <b>Dm</b>  <b>A7(5+)</b>
-Doce nova revelada, Lá na cruz do Salvador
-<b>Dm</b>     <b>Dm7M</b>      <b>Dm7</b>    <b>Dm</b>       <b>D7/F#</b>      <b>Gm</b> <b>Gm7</b>
-Cego e desviado o homem dos caminhos do Senhor
-<b>Gm7</b>    <b>Gm6</b>        <b>Em7(5-)</b>    <b>Bb7M</b>    <b>A7</b>        <b>Dm</b>     <b>C/E</b>
-Desconhece e desconfia. Deste Deus, O Deus de amor
-
-       <b>F</b>    <b>C/E</b>   <b>F</b>    <b>F7M</b>     <b>F6</b>     <b>D/F#</b>  <b>Gm</b>  <b>Gm7M</b>
-Grata nova, doce nova. Vem dos lábios do Senhor
-   <b>Gm7</b>     <b>Gm6</b>   <b>C/E</b>         <b>F</b>        <b>C/E</b>   <b>F</b>  <b>A7(5+)</b>
-Escutai com Alegria: "Deus é luz, Deus é amor"
-
-<b>Dm</b>     <b>Dm7M</b>         <b>Dm7</b>    <b>Dm</b>       <b>D7/F#</b>      <b>Gm</b> <b>Gm7M</b>
-Com ofertas e obras mortas. Sacrificios sem valor
-  <b>Gm7</b>      <b>Gm6</b>    <b>Em7(5-)</b>    <b>Bb7M</b>    <b>A7</b>    <b>Dm</b>  <b>A7(5+)</b>
-Enganado, pensa o homem, propiciar seu Criador
-<b>Dm</b>     <b>Dm7M</b>         <b>Dm7</b>    <b>Dm</b>       <b>D7/F#</b>      <b>Gm</b> <b>Gm7M</b>
-Meios de salvar-se inventa; Clama, roga em seu favor
-<b>Gm7</b>    <b>Gm6</b>        <b>Em7(5-)</b>    <b>Bb7M</b>    <b>A7</b>        <b>Dm</b>     <b>C/E</b>
-A supostos mediadores, desprezando  o Deus de amor
-
-<b>Dm</b>     <b>Dm7M</b>         <b>Dm7</b>    <b>Dm</b>       <b>D7/F#</b>      <b>Gm</b> <b>Gm7M</b>
-Luz divina resplandece, Mostra ao triste pecador
-<b>Gm7</b>      <b>Gm6</b>    <b>Em7(5-)</b>    <b>Bb7M</b>    <b>A7</b>    <b>Dm</b>  <b>A7(5+)</b>
-Que na cruz estão unidos. A justiça e o amor
-<b>Dm</b>     <b>Dm7M</b>         <b>Dm7</b>    <b>Dm</b>       <b>D7/F#</b>      <b>Gm</b> <b>Gm7M</b>
-Fala aos corações feridos, mostra-Te Deus Salvador
-<b>Gm7</b>    <b>Gm6</b>        <b>Em7(5-)</b>    <b>Bb7M</b>    <b>A7</b>        <b>Dm</b>     <b>C/E</b>
-E sem fim proclamaremos: "Deus é luz, Deus é Amor"
-
-            Glória a Deus
-
-            [Acordes]
-            A = X 0 2 2 2 0
-            A/C# = X 4 X 2 5 5
-            A9 = X 0 2 2 0 0
-            A4 = X 0 2 2 3 0
-            A6 = 5 X 4 6 5 X
-            B = X 2 4 4 4 2
-            B/D# = X 6 X 4 7 7
-            B4 = X 2 4 4 5 2
-            Bm = X 2 4 4 3 2
-            C#m = X 4 6 6 5 4
-            D = X X 0 2 3 2
-            D/F# = 2 X 0 2 3 2
-            E = 0 2 2 1 0 0
-            E/G# = 4 X 2 4 5 X
-            Em = 0 2 2 0 0 0
-            G = 3 2 0 0 0 3
-            G/B = X 2 0 0 3 3
-
-        </pre>
-</div>
-</div>
-  
+  <title>Hino 01 Chuvas de Graça</title>
+  <style>
     
-  </body>
-  </html>
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/346pYJEe4uk?si=ni5asrmGdRTSvxRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
+  <h1 class="titulo-menu">Igreja Shekinah hinos da harpa cristã  </h1>
+
+<table class="menu-principal">
+<tr class="menu-tabela">
+<td><a href="../videos-youtube/videosyoutube.html"> videos</a></td>
+<td><a href="../louvores/index.html">louvores</a></td>
+<td><a href="../genesis/index.html">biblia sagrada </a></td>
+<td><a href="../teclado virtual/teclado.html">Teclado Virtual </a></td>
+<td><a href="../hinos-da-harpa/index.html">hinos</a></td>
+<td><a href="../quiz-Biblico/quiz.html">quiz </a></td>
+<td><a href="">Playback </a></td>
+<td><a href="#"></a></td>
+</tr>
+
+</table>
+
+  <div id="controls">
+    <div id="scroll-up" class="control-button">-</div>
+    <div id="scroll-down" class="control-button">+</div>
+    <div id="scroll-toggle" class="control-button">Play</div>
+    <div id="scroll-reset" class="control-button">Reset</div>
+    <div id="transpose-up" class="control-button">Transpose +</div>
+    <div id="transpose-down" class="control-button">Transpose -</div>
+    <div id="font-size-up" class="control-button">A+</div>
+    <div id="font-size-down" class="control-button">A-</div>
+  </div>
+
+  <div id="scroll-container">
+    <pre id="content">
+      Hino 18
+      Grata nova
+      Tom: <b>F</b>
+            
+          <b>Bm</b>   <b>F#</b>      <b>Bm</b>                   <b>B7</b>     <b>Em</b>
+    Grata nova Deus proclama hoje  ao mundo peca - dor
+                  <b>F#</b>           <b>G</b>      <b>F#</b>    <b>Bm</b>
+    Doce nova revelada, lá na cruz do salvador
+              <b>F#</b>      <b>Bm</b>                 <b>B7</b>    <b>Em</b>
+    Cego e desviado o homem dos caminhos do Senhor
+                  <b>C#7</b>    <b>F#</b>        <b>G</b>        <b>F#</b>     <b>Bm</b>   <b>A</b>
+    Desconhece e desconfia Deste Deus, O Deus de amor
+    
+          <b>D</b>     <b>A</b>    <b>D</b>                    <b>B7</b>    <b>Em</b>  
+    Grata nova, doce nova vem dos lábios do Senhor
+                    <b>A</b>            <b>D</b>         <b>A</b>    <b>D</b>  <b>F#</b>
+    Escutai com alegria: "Deus é luz, Deus é amor"
+    
+          <b>Bm</b>   <b>F#</b>      <b>Bm</b>                   <b>B7</b>     <b>Em</b>
+    Com ofertas e obras mortas sacrifícios sem valor
+                  <b>F#</b>           <b>G</b>      <b>F#</b>    <b>Bm</b>
+    Enganado, pensa o homem, propiciar seu Criador
+              <b>F#</b>      <b>Bm</b>                 <b>B7</b>    <b>Em</b>
+    Meios de salvar-se inventa; clama, roga em seu favor
+                  <b>C#7</b>    <b>F#</b>        <b>G</b>        <b>F#</b>     <b>Bm</b>   <b>A</b>
+    A supostos mediadores, desprezando  o Deus de amor
+    
+          <b>D</b>     <b>A</b>    <b>D</b>                    <b>B7</b>    <b>Em</b>  
+    Grata nova, doce nova vem dos lábios do Senhor
+                    <b>A</b>            <b>D</b>         <b>A</b>    <b>D</b>  <b>F#</b>
+    Escutai com Alegria: "Deus é luz, Deus é amor"
+    
+          <b>Bm</b>   <b>F#</b>      <b>Bm</b>                   <b>B7</b>     <b>Em</b>
+    Luz divina resplandece, mostra ao triste pecador
+                  <b>F#</b>           <b>G</b>      <b>F#</b>    <b>Bm</b>
+    Que na cruz estão unidos a justiça e o amor
+              <b>F#</b>      <b>Bm</b>                 <b>B7</b>    <b>Em</b>
+    Fala aos corações feridos, mostra-Te Deus salvador
+                  <b>C#7</b>    <b>F#</b>        <b>G</b>        <b>F#</b>     <b>Bm</b>   <b>A</b>
+    E sem fim proclamaremos: "Deus é luz, Deus é amor"
+    
+          <b>D</b>     <b>A</b>    <b>D</b>                    <b>B7</b>    <b>Em</b>  
+    Grata nova, doce nova vem dos lábios do Senhor
+                    <b>A</b>            <b>D</b>         <b>A</b>    <b>D</b> 
+    Escutai com alegria: "Deus é luz, Deus é amor"
+  
+  
+  
+              Glória a Deus
+  
+                [Acordes]
+                A = X 0 2 2 2 0
+                A/C# = X 4 X 2 5 5
+                A9 = X 0 2 2 0 0
+                A4 = X 0 2 2 3 0
+                A6 = 5 X 4 6 5 X
+                B = X 2 4 4 4 2
+                B/D# = X 6 X 4 7 7
+                B4 = X 2 4 4 5 2
+                Bm = X 2 4 4 3 2
+                C#m = X 4 6 6 5 4
+                D = X X 0 2 3 2
+                D/F# = 2 X 0 2 3 2
+                E = 0 2 2 1 0 0
+                E/G# = 4 X 2 4 5 X
+                Em = 0 2 2 0 0 0
+                G = 3 2 0 0 0 3
+                G/B = X 2 0 0 3 3
+    </pre>
+  </div>
+
+  
+</body>
+<script src="cifra.js"></script>
+</html>

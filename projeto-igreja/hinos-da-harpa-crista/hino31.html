@@ -3,72 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="cifra.css">
-  
+  <link rel="stylesheet" href="../meusite.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Hino 01 Chuvas de Graça</title>
+  <style>
+    
+  </style>
 </head>
-
-<script src="cifra.js"></script>
-
-<script src="acordes.js"></script>
-<script src="musica.js"></script>
-<script src="rolagem.js"></script>
-
 <body>
-  
-    <div class="menus">
-        <ul class="ordem-3">
-            <li><a href="#">hino
-                <ul>
-                
-                    <li><a href="hino.html">harpa cristã</a></li>
-                </ul>
-            </li>
-            <li><a href="#">biblia sagrada</a>
-                <ul>
-                    <li><a href="../genesis/index.html">capitulos</a></li>
-                    <li><a href="../genesis/index.html">versiculos</a></li>
-                </ul>
-            </li>
-            <li><a href="#">videos</a>
-                <ul>
-                    <li><a href="../videos-youtube/videosyoutube.html">louvores</a></li>
-                    <li><a href="../videos-youtube/videosyoutube.html">videos</a></li>
-                </ul>
-            </li>
-            <li><a href="meusite.html">shekinah kadoshi</a>
-                <ul>
-                    <li><a href="#">lista 10</a></li>
-                    <li><a href="#">lista 10</a></li>
-                </ul>
-            </li>
-        
-        </ul>
-    </div>
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-ip6FAw7-54?si=ElZW-TRLX4uAbKRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 
+  <h1 class="titulo-menu">Igreja Shekinah hinos da harpa cristã  </h1>
 
-    <div id="controls">
-        <button class="botao" onclick="rolar(1)">Rolagem</button>
-        <button class="botao" onclick="rolar()">Pause</button>
-      
-        <button onclick="transposicaoBotao(1)">+ 1/2 </button>
-        <button onclick="transposicaoBotao(-1)">-1/2 </button>
-        <Button onclick="reset()">reset</Button>
-      
-      </div>
+<table class="menu-principal">
+<tr class="menu-tabela">
+<td><a href="../videos-youtube/videosyoutube.html"> videos</a></td>
+<td><a href="../louvores/index.html">louvores</a></td>
+<td><a href="../genesis/index.html">biblia sagrada </a></td>
+<td><a href="../teclado virtual/teclado.html">Teclado Virtual </a></td>
+<td><a href="../hinos-da-harpa/index.html">hinos</a></td>
+<td><a href="../quiz-Biblico/quiz.html">quiz </a></td>
+<td><a href="">Playback </a></td>
+<td><a href="#"></a></td>
+</tr>
 
- <div class="row">
-    <div class="col musicas">
-        
-<p data-arquivo="Hino 01 - chuvas de Graça" onclick="abrirMusica(event)"></p>
-       
-        
-    </div>
+</table>
 
- <div class="row">
- <div id="resultado">
-<pre>
-                     Hino 31
+  <div id="controls">
+    <div id="scroll-up" class="control-button">-</div>
+    <div id="scroll-down" class="control-button">+</div>
+    <div id="scroll-toggle" class="control-button">Play</div>
+    <div id="scroll-reset" class="control-button">Reset</div>
+    <div id="transpose-up" class="control-button">Transpose +</div>
+    <div id="transpose-down" class="control-button">Transpose -</div>
+    <div id="font-size-up" class="control-button">A+</div>
+    <div id="font-size-down" class="control-button">A-</div>
+  </div>
+
+  <div id="scroll-container">
+    <pre id="content">
+      Hino 31
                      Glória Ao Meu Jesus
                      Tom: <b>D</b>
          
@@ -131,11 +107,10 @@
             Em = 0 2 2 0 0 0
             G = 3 2 0 0 0 3
             G/B = X 2 0 0 3 3
+    </pre>
+  </div>
 
-        </pre>
-</div>
-</div>
   
-    
-  </body>
-  </html>
+</body>
+<script src="cifra.js"></script>
+</html>
