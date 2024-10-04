@@ -113,4 +113,14 @@ document.addEventListener('DOMContentLoaded', () => {
       const currentFontSize = parseFloat(window.getComputedStyle(content, null).getPropertyValue('font-size'));
       content.style.fontSize = (currentFontSize + amount) + 'px';
     }
+    // Função para mostrar os botões ao tocar na tela
+    function mostrarBotoes(){
+      scrollToggleButton.style.display = "block"
+    }
+  document.addEventListener("touchstart", function(){
+    mostrarBotoes();
+  });
+document.addEventListener("click", function(){
+  mostrarBotoes();
+});
   });

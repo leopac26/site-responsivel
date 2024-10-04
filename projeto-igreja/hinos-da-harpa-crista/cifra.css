@@ -429,5 +429,15 @@ pre {
   #content {
     margin-top: 10px;
   }
+  #scroll-toggle{
+    display: none;
+  }
+  #scroll-up{display: none;}
+        #scroll-down{display: none;}
+        #scroll-reset{display: none;}
+        #transpose-up{display: none;}
+        #transpose-down{display: none;}
+        #font-size-up{display: none;}
+        #font-size-down{display: none;}
 
 }
